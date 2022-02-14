@@ -1,0 +1,15 @@
+-3,-2,-1,0,1,2
+,(Exp-Obs),Error,Squared Error,,Absolute Error
+,0,0,0,,0
+,1,-1,1,,1
+,-1,1,1,,1
+,1.5,-1.5,2.25,,1.5
+,-1.5,1.5,2.25,,1.5
+,Total Error=,0,6.5,,5
+,Avg Error?,,1.3,Mean SQ Error,1
+,,std = root(rmse),1.140175425,,Mean Absolute Error
+,,,,,
+,Z-Score,SUM(every_value - mean)/ standard_deviation,,,
+,Standard,hopefully-> -1 to 1 (majority),,98% of data,
+,Scaling,(-2) : 2,(minority),1-2% of data,
+,,beyond -3 or 3,,OUTLIER,
