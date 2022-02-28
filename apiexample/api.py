@@ -18,4 +18,3 @@ def sumfunc(n, m):
 # host=0.0.0.0 -> app runs outside the machine 
 app.run(host="0.0.0.0")
 
-                                                                                  14,24         Bot
