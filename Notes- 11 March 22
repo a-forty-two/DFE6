@@ -1,0 +1,18 @@
+MEMORIZE:
+
+1. LOOK and VISUALIZE the data
+    1. Graphs and charts
+    2. Decisions- 
+        1. Which columns to eliminate 
+                1. Correlation
+                2. Distribution
+        2. If any column can be converted to ID
+                1. Unique valued or indexed COLUMN
+                    1. Customer ID and Index Column 
+                    2. You can have a UNIQUE valued column excluded from ML without removing it
+        3. Categorical/Discrete or Continuous problem 
+        4. In some cases: possibility of GROUPING/AGGREGATION (date time, categories, ZIP codes, cities, states, customer IDs…) 
+                        1. SUM, MIN, MAX, AVG
+2. Prepare the data (For ML)
+    1. NULL values and MISSING values check!
+    2. We may also check for Categorical/Discrete or Continuous columns here  
